@@ -11,7 +11,7 @@ app.secret_key = "mysecretkey"  # se crea para crear una session que lo utiliza 
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="",
+    password="mpmp",
     database="mydb"
 )
 mycursor = mydb.cursor()          
